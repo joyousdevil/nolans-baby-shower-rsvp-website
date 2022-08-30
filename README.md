@@ -1,4 +1,4 @@
-# Nolan Cole Camacho Colegio's Baby Shower Website
+# Nolan Cole Colegio Camacho's Baby Shower Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
