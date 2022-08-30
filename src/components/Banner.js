@@ -49,7 +49,7 @@ export const Banner = () => {
 
   function scrollToBottom() {
     window.scroll({
-      top: document.body.offsetHeight,
+      top: 1500,
       left:0,
       behavior: 'smooth',
     })
