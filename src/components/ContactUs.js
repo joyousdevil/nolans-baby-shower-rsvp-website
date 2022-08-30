@@ -25,14 +25,14 @@ export const ContactUs = () => {
           <Col size={12} md={6}>
           <TrackVisibility once>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                <img className={isVisible ? "animate__animated animate__pulse" : ""} src={contactImg} alt="Contact Us"/>
               }
             </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
           <TrackVisibility once>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
                 <h2>See you there 👪</h2>
           <form onSubmit={handleSubmit}>
               <Row>

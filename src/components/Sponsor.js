@@ -18,7 +18,7 @@ export const Sponsor = () => {
           <Col size={12}>
             <TrackVisibility once>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div className={isVisible ? "animate__animated animate__pulse": ""}>
                 <h2>Sponsor me!</h2>
                 <p>There are three ways you can sponsor me 👶🏻</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -33,7 +33,7 @@ export const Sponsor = () => {
                       <Nav.Link eventKey="third">3</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__pulse" : ""}>
                     <Tab.Pane eventKey="first">
                       <center>
                         <h3>Hand deliver gifts or cash at my baby shower.</h3>

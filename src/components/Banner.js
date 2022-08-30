@@ -62,7 +62,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility once>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className={isVisible ? "animate__animated animate__pulse" : ""}>
                 <span className="tagline">Nolan's Baby Shower 🎉</span>
                 <h1>{`Hi! I'm Nolan! 🌌✨🌕`}</h1>
                   <p>My mommy's name is Mimay. 🤍🦋</p>
@@ -75,7 +75,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility once>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                <div className={isVisible ? "animate__animated animate__pulse" : ""}>
                   <img src={headerImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
