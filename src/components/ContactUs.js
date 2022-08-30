@@ -84,6 +84,6 @@ export const ContactUs = () => {
 // if you want to put a label for a submission field
 /*
 <label htmlFor="name">
-  💫
+  label
 </label>
 */
