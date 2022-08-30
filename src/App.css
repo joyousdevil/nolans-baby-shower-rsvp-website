@@ -50,6 +50,12 @@ p, a, li, button, ul {
   text-decoration: none;
 }
 
+p2 {
+  align-items: center;
+  flex: 100;
+  padding: 200
+}
+
 a:hover {
   text-decoration: none;
 }
