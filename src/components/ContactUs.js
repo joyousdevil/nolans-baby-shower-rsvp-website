@@ -30,9 +30,7 @@ export const ContactUs = () => {
             </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
-          <TrackVisibility once>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
+                <div>
                 <h2>See you there 👪</h2>
           <form onSubmit={handleSubmit}>
               <Row>
@@ -75,8 +73,7 @@ export const ContactUs = () => {
                 </span>
               </Row>
           </form>
-          </div>}
-          </TrackVisibility> 
+          </div>
           </Col>
         </Row>
       </Container>
