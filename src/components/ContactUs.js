@@ -76,7 +76,8 @@ export const ContactUs = () => {
          </div>
           </Col>
         </Row>
-        <center><h2>Baby shower location: TBD 🤔</h2></center>
+        <center><h3>Baby shower location:</h3></center>
+        <center><h2>TBD 🤔</h2></center>
       </Container>
     </section>
   );
