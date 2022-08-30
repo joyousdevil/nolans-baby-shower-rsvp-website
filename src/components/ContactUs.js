@@ -23,7 +23,7 @@ export const ContactUs = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-          <TrackVisibility once>
+            <TrackVisibility once>
               {({ isVisible }) =>
                 <img className={isVisible ? "animate__animated animate__pulse" : ""} src={contactImg} alt="Contact Us"/>
               }
@@ -73,9 +73,10 @@ export const ContactUs = () => {
                 </span>
               </Row>
           </form>
-          </div>
+         </div>
           </Col>
         </Row>
+        <center><h2>Baby shower location: TBD 🤔</h2></center>
       </Container>
     </section>
   );
