@@ -65,6 +65,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Nolan's Baby Shower 🎉</span>
                 <h1>{`Hi! I'm Nolan! 🌌✨🌕`}</h1>
+                  <p>My mommy's name is Mimay. 🤍🦋</p>
+                  <p>My daddy's name is Vince. 🖤☕</p>
                   <p>Join my family on November 22nd for my baby shower! 🐱‍🐉</p>
               </div>}
             </TrackVisibility>
