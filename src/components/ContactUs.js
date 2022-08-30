@@ -67,9 +67,11 @@ export const ContactUs = () => {
                   errors={state.errors}
                 />
                 <span>
+                <center>
                   <button type="submit" disabled={state.submitting}>
                     RSVP
                  </button>
+                 </center>
                 </span>
               </Row>
           </form>
