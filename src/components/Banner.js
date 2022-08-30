@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [setIndex] = useState(1);
-  const toRotate = [ "Join me for my baby shower!", "My mommy's name is Mimay 🤍", "My daddy's name is Vince 🖤" ];
+  const toRotate = [ "✨", "🌌", "🌕" ];
   const period = 2000;
 
   useEffect(() => {
