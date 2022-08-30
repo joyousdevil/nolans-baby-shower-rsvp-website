@@ -1,5 +1,7 @@
 # Nolan Cole Colegio Camacho's Baby Shower Website
 
+<img width="1266" alt="preview" src="blob:https://vercel.com/dad13f44-bc91-498d-855b-6dff3d5f0a75">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Built using:
