@@ -10,13 +10,13 @@ import contactImg from "../assets/img/mom.svg";
 export const ContactUs = () => {
   const [state, handleSubmit] = useForm("xzbwzovz");
   if (state.succeeded) {
-      return (
-      <section className="contact" id="connect">
-        <center>
-          <h2>Thanks for joining! 🌠🌌✨</h2>
-        </center>
-      </section>
-      )
+   return (
+    <section className="contact" id="connect">
+      <center>
+        <h2>Thanks for joining! 🌠🌌✨</h2>
+      </center>
+    </section>
+   )
   }
   return (
     <section className="contact" id="connect">
@@ -30,50 +30,50 @@ export const ContactUs = () => {
             </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
-                <div>
-                <h2>See you there 👪</h2>
+            <div>
+              <h2>See you there 👪</h2>
           <form onSubmit={handleSubmit}>
-              <Row>
-                  <input
-                    id="name"
-                    type="name" 
-                    name="name"
-                    placeholder="What is your name? ✨"
-                  />
-                  <ValidationError 
-                    prefix="Name" 
-                    field="Name"
-                    errors={state.errors}
-                  />
-                <input
-                  id="phonenumber"
-                  type="phonenumber" 
-                  name="phone no."
-                  placeholder="What is your contact number? 📱"
-                />
-                <ValidationError 
-                  prefix="phone" 
-                  field="Phone No."
-                  errors={state.errors}
-                />
-                <textarea
-                  id="party"
-                  name="party"
-                  placeholder="Who will be coming with you? 👨‍👩‍👧‍👦"
-                />
-                <ValidationError 
-                  prefix="party" 
-                  field="Other people joining"
-                  errors={state.errors}
-                />
-                <span>
+            <Row>
+              <input
+                id="name"
+                type="name" 
+                name="name"
+                placeholder="What is your name? ✨"
+              />
+              <ValidationError 
+                prefix="Name" 
+                field="Name"
+                errors={state.errors}
+              />
+              <input
+                id="phonenumber"
+                type="phonenumber" 
+                name="phone no."
+                placeholder="What is your contact number? 📱"
+              />
+              <ValidationError 
+                prefix="phone" 
+                field="Phone No."
+                errors={state.errors}
+              />
+              <textarea
+                id="party"
+                name="party"
+                placeholder="Who will be coming with you? 👨‍👩‍👧‍👦"
+              />
+              <ValidationError 
+                prefix="party" 
+                field="Other people joining"
+                errors={state.errors}
+              />
+              <span>
                 <center>
                   <button type="submit" disabled={state.submitting}>
                     RSVP
-                 </button>
+                  </button>
                  </center>
-                </span>
-              </Row>
+              </span>
+            </Row>
           </form>
          </div>
           </Col>
