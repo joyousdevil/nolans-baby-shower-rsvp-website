@@ -44,15 +44,15 @@ export const Sponsor = () => {
                     <Tab.Pane eventKey="second">
                       <center>
                         <h3>Donate to mommy's paypal.</h3>
-                          <div className="paragraph-image"><a href="https://www.paypal.me/jemimahkyla" target="_blank"><img src={paypalLogo} alt="paypaldonate" /></a></div>
-                          <div className="paragraph-image"><a href="https://www.paypal.me/jemimahkyla" target="_blank"><img src={creditCard} alt="creditcard" /></a></div>
+                          <div className="paragraph-image"><a href="https://www.paypal.me/jemimahkyla" target="_blank" rel="noreferrer"><img src={paypalLogo} alt="paypaldonate" /></a></div>
+                          <div className="paragraph-image"><a href="https://www.paypal.me/jemimahkyla" target="_blank" rel="noreferrer"><img src={creditCard} alt="creditcard" /></a></div>
                       </center>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <center>
                         <h3>Purchase an item on my Amazon registry.</h3>
-                          <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank"><img src={amazonLogo} alt="baby registry" /></a></div>
-                          <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank"><img src={amazonBox} alt="creditcard" /></a></div>
+                          <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank" rel="noreferrer"><img src={amazonLogo} alt="baby registry" /></a></div>
+                          <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank" rel="noreferrer"><img src={amazonBox} alt="creditcard" /></a></div>
                       </center>
                     </Tab.Pane>
                   </Tab.Content>
@@ -62,7 +62,7 @@ export const Sponsor = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="background"></img>
     </section>
   )
 }
