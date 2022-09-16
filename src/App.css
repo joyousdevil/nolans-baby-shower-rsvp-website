@@ -102,7 +102,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 0 20px;
+  margin-top: 10px;
   font-size: 18px;
   opacity: 0.75;
 }
@@ -117,7 +118,7 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     margin-left: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .paragraph-image {
   display: flex;
