@@ -67,7 +67,7 @@ export const Banner = () => {
                   <h1>{`Hi! I'm Nolan! 🌌✨🌕`}</h1>
                    <p>My mommy's name is Mimay. 🤍🦋</p>
                    <p>My daddy's name is Vince. 🖤☕</p>
-                   <p>Join my family on November 22nd for my baby shower!</p>
+                   <p>Join my family on December 4th for my baby shower!</p>
                   <font color="white"><h3><b><u>Baby shower location</u>: TBD 🤔</b></h3></font>
               </div>}
             </TrackVisibility>
