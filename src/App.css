@@ -574,7 +574,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .location h2 {
 	font-size: 45px;
 	font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   margin-top: 5px;
   text-align: center;
   flex: 1,
@@ -583,7 +583,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 18px;
 	font-weight: 100;
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 25px;
   text-align: center;
 }
 
