@@ -6,6 +6,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
+/*
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -46,7 +47,7 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
-
+*/
   function scrollToBottom() {
     window.scroll({
       top: 2500,
@@ -64,7 +65,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__pulse" : ""}>
                 <span className="tagline">Nolan's Baby Shower 🎉</span>
-                  <h1>{`Hi! I'm Nolan! 🌌✨🌕`}</h1>
+                  <h1>Hi! I'm Nolan!</h1> 
+                  <h1>🌌✨🌕</h1>
                    <p>My mommy's name is Mimay. 🤍🦋</p>
                    <p>My daddy's name is Vince. 🖤☕</p>
                    <p>Join my family on December 4th for my baby shower!</p>
