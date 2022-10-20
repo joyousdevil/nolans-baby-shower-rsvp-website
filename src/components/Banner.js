@@ -68,7 +68,6 @@ export const Banner = () => {
                    <p>My mommy's name is Mimay. 🤍🦋</p>
                    <p>My daddy's name is Vince. 🖤☕</p>
                    <p>Join my family on December 4th for my baby shower!</p>
-                  <font color="white"><h3><b><u>Baby shower location</u>: TBD 🤔</b></h3></font>
               </div>}
             </TrackVisibility>
             <button onClick={scrollToBottom}>RSVP <ArrowRightCircle size={25} /></button>
