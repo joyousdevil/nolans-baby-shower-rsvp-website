@@ -37,7 +37,6 @@ export const Sponsor = () => {
                     <Tab.Pane eventKey="first">
                       <center>
                         <h3>Hand deliver gifts or cash at my baby shower.</h3>
-                        <div className="paragraph-image"><img src={giftImg1} alt="gift" /></div>
                         <div className="paragraph-image"><img src={moneyImg1} alt="money" /></div>
                       </center>
                     </Tab.Pane>
@@ -45,14 +44,12 @@ export const Sponsor = () => {
                       <center>
                         <h3>Donate to mommy's paypal.</h3>
                           <div className="paragraph-image"><a href="https://www.paypal.me/jemimahkyla" target="_blank" rel="noreferrer"><img src={paypalLogo} alt="paypaldonate" /></a></div>
-                          <div className="paragraph-image"><a href="https://www.paypal.me/jemimahkyla" target="_blank" rel="noreferrer"><img src={creditCard} alt="creditcard" /></a></div>
                       </center>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <center>
                         <h3>Purchase an item on my Amazon registry.</h3>
                           <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank" rel="noreferrer"><img src={amazonLogo} alt="baby registry" /></a></div>
-                          <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank" rel="noreferrer"><img src={amazonBox} alt="creditcard" /></a></div>
                       </center>
                     </Tab.Pane>
                   </Tab.Content>
