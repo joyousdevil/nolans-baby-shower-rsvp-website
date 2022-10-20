@@ -5,6 +5,7 @@ import { Banner } from "./components/Banner";
 import { Sponsor } from "./components/Sponsor";
 import { ContactUs } from "./components/ContactUs";
 import { Footer } from "./components/Footer";
+import { Location } from "./components/Location";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Sponsor />
       <ContactUs />
+      <Location />
       <Footer />
     </div>
   );
