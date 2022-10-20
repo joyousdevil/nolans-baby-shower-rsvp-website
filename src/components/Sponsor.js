@@ -43,12 +43,14 @@ export const Sponsor = () => {
                     <Tab.Pane eventKey="second">
                       <center>
                         <h3>Donate to mommy's paypal.</h3>
+                        <p2>(Tap the logo to donate)</p2>
                           <div className="paragraph-image"><a href="https://www.paypal.me/jemimahkyla" target="_blank" rel="noreferrer"><img src={paypalLogo} alt="paypaldonate" /></a></div>
                       </center>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <center>
                         <h3>Purchase an item on my Amazon registry.</h3>
+                        <p2>(Tap the logo for Nolan's registry)</p2>
                           <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank" rel="noreferrer"><img src={amazonLogo} alt="baby registry" /></a></div>
                       </center>
                     </Tab.Pane>
