@@ -70,7 +70,7 @@ export const Banner = () => {
                    <p>Join my family on December 4th for my baby shower!</p>
               </div>}
             </TrackVisibility>
-            <button onClick={scrollToBottom}>RSVP <ArrowRightCircle size={25} /></button>
+              <button onClick={scrollToBottom}>RSVP <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility once>
