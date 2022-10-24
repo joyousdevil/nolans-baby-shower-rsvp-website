@@ -1,11 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import giftImg1 from "../assets/img/giftimg1.svg"
 import moneyImg1 from "../assets/img/moneyimg1.svg"
 import paypalLogo from "../assets/img/paypal-logo.svg"
-import creditCard from "../assets/img/creditcard.svg"
 import amazonLogo from "../assets/img/amazon-logo.svg"
-import amazonBox from "../assets/img/box.svg"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
