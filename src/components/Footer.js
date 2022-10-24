@@ -15,7 +15,7 @@ export const Footer = () => {
               <a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank"><img src={navIcon2} alt="amazonRegistry" /></a>
               <a href="https://www.instagram.com/jemimahkyla" target="_blank"><img src={navIcon3} alt="Instagram" /></a>
             </div>
-            <p>Vincent Camacho and Jemimah Colegio, copyright 2022(c). All Rights Reserved.</p>
+            <p>Copyright © Vincent Camacho and Jemimah Colegio. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
