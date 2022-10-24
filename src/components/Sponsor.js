@@ -50,7 +50,7 @@ export const Sponsor = () => {
                     <Tab.Pane eventKey="third">
                     <center>
                         <h3>Purchase an item on my Amazon registry.</h3>
-                        <p2>(Tap the logo for Nolan's registry)</p2>
+                        <p2>(Tap the logo for my registry)</p2>
                           <div className="paragraph-image"><a href="https://www.amazon.com/baby-reg/nolancole-colegiocamacho-january-2023-saipan/FOD3XMVPQHVU" target="_blank" rel="noreferrer"><img src={amazonLogo} alt="baby registry" /></a></div>
                       </center>
                     </Tab.Pane>
