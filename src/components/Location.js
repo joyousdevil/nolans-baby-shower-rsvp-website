@@ -13,7 +13,7 @@ export const Location = () => {
         display="block"
         position="relative"
       />
-        <p>The baby shower will be held in the big pavillion at Micro Beach.</p>
+        <p>The baby shower will be held in the big pavillion at Micro Beach @12PM.</p>
     </div>
     </section>
   );
