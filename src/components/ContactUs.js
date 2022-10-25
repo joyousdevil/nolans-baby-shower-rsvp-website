@@ -38,6 +38,7 @@ export const ContactUs = () => {
                 id="name"
                 type="name" 
                 name="name"
+                required="true"
                 placeholder="What is your name? ✨"
               />
               <ValidationError 
@@ -49,6 +50,7 @@ export const ContactUs = () => {
                 id="phonenumber"
                 type="phonenumber" 
                 name="phone no."
+                required="true"
                 placeholder="What is your contact number? 📱"
               />
               <ValidationError 
@@ -68,6 +70,7 @@ export const ContactUs = () => {
               />
               <span>
                 <center>
+                  <p>We will text you and let you know where the location is!</p>
                   <button type="submit" disabled={state.submitting}>
                     RSVP
                   </button>
