@@ -70,7 +70,6 @@ export const ContactUs = () => {
               />
               <span>
                 <center>
-                  <p>We will text you and let you know where the location is!</p>
                   <button type="submit" disabled={state.submitting}>
                     RSVP
                   </button>

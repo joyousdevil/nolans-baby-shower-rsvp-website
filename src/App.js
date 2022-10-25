@@ -14,6 +14,7 @@ function App() {
       <Banner />
       <Sponsor />
       <ContactUs />
+      <Location />
       <Footer />
     </div>
   );
